@@ -58,8 +58,8 @@ class UsersController < ApplicationController
   end
 
   def latest
-    @user = User.last.to_json(include: [:avatar])
-    render json: @user
+    @user = User.last
+    render json: UserSerializer.new(@user).serializable_hash[:data][:attributes]
 
   end
     private

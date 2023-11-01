@@ -69,3 +69,4 @@ group :test do
 end
 
 gem 'rack-cors'
+gem "jsonapi-serializer", "~> 2.2"
