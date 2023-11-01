@@ -58,7 +58,7 @@ class UsersController < ApplicationController
   end
 
   def latest
-    @user = user.last
+    @user = User.last.to_json(include: [:avatar])
     render json: @user
 
   end
