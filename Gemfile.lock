@@ -129,6 +129,7 @@ GEM
       net-smtp
     marcel (1.0.2)
     matrix (0.4.2)
+    mini_magick (4.12.0)
     mini_mime (1.1.5)
     minitest (5.20.0)
     msgpack (1.7.2)
@@ -253,6 +254,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jsonapi-serializer (~> 2.2)
+  mini_magick
   pg (~> 1.1)
   puma (>= 5.0)
   rack-cors

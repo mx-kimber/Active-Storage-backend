@@ -70,3 +70,13 @@ end
 
 gem 'rack-cors'
 gem "jsonapi-serializer", "~> 2.2"
+
+###
+gem 'mini_magick'
+  # !!!!! install image magick first 
+    # brew install image-magick    
+    # yarn add imagemagick
+    # sudo apt-get install imagemagick
+###
+
+
